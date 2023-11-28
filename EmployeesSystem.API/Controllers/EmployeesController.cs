@@ -48,13 +48,13 @@ namespace EmployeesSystem.API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Add([FromBody] EmployeesAddDto employeeDto)
+        public async Task<ActionResult<string>> Add([FromBody] EmployeesAddDto employeeDto)
         {
             try
             {
                 var result = await _employeeManager.Add(employeeDto);
 
-                if (result)
+                if (result !=null)
                     return Ok("Employee is Added Successfully ");
                 else
                     return BadRequest("Failed to add employee");
@@ -66,14 +66,14 @@ namespace EmployeesSystem.API.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Update(int id, [FromBody] EmployeesUpdateDto employeeDto)
+        public async Task<ActionResult> Update( [FromBody] EmployeesUpdateDto employeeDto)
         {
             try
             {
 
                 var result = await _employeeManager.Update(employeeDto);
 
-                if (result)
+                if (result!=null )
                     return Ok("Employee is Updated Successfully ");
                 else
                     return BadRequest("Failed to update employee");
@@ -85,17 +85,17 @@ namespace EmployeesSystem.API.Controllers
         }
 
         [HttpDelete("{EmployeeId}")]
-        public async Task<ActionResult> Delete(int EmployeeId)
+        public async Task<ActionResult<string>> Delete(int EmployeeId) /*Soft Delete*/
         {
             try
             {
 
                 var result = await _employeeManager.Delete(EmployeeId);
 
-                if (result )
-                    return Ok("Employee is Deleted Successfully ");
+                if (result !=null)
+                    return Ok("Employee is De Activated Successfully ");
                 else
-                    return BadRequest("Failed to delete employee");
+                    return BadRequest("Failed to Activate employee");
             }
             catch (Exception ex)
             {

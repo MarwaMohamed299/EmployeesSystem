@@ -70,7 +70,7 @@ namespace EmployeeSystem.BL.Managers
             
         }
 
-        public async Task Add(EmployeesAddDto employeesAddDto)                          /*Add*/
+        public async Task<string> Add(EmployeesAddDto employeesAddDto)                          /*Add*/
         {
             try
             {
@@ -82,14 +82,16 @@ namespace EmployeeSystem.BL.Managers
 
                 await _employeeRepo.Add(employee);
                  _employeeRepo.SaveChanges();
+                return ("Employee is added successfully ");
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error occurred while adding an employee.");
+                return ("Employee Failed to be added");
             }
         }
 
-        public async Task Update(EmployeesUpdateDto employee)                       /*Update*/
+        public async Task<string> Update(EmployeesUpdateDto employee)                       /*Update*/
         {
             try
             {
@@ -100,6 +102,7 @@ namespace EmployeeSystem.BL.Managers
                 if (existingEmployee == null)
                 {
                     _logger.LogWarning($"Employee with ID {employee.EmployeeId} not found.");
+                    return ("Employee is not found ");
                 }
 
                 existingEmployee.Name = employee.Name;
@@ -107,6 +110,8 @@ namespace EmployeeSystem.BL.Managers
 
                await _employeeRepo.Update(existingEmployee);
                 _employeeRepo.SaveChanges();
+                return ("Employee is Updated Successfully");
+
             }
             catch (Exception ex)
             {
@@ -114,7 +119,7 @@ namespace EmployeeSystem.BL.Managers
                 throw;
             }
         }
-        public async Task Delete(int EmployeeId)
+        public async Task<string> Delete(int EmployeeId)
         {
             try
             {
@@ -123,12 +128,16 @@ namespace EmployeeSystem.BL.Managers
                 if (existingEmployee == null)
                 {
                     _logger.LogWarning($"Employee with ID {EmployeeId} not found.");
+                    return ("Employee is not found ");
+
                 }
 
-                existingEmployee.IsActivated = false; // Soft delete by setting IsActivated to false
+                existingEmployee.IsActivated = false; 
 
                 await _employeeRepo.Update(existingEmployee);
                        _employeeRepo.SaveChanges();
+                return ("Employee is Not Activated ");
+
             }
             catch (Exception ex)
             {

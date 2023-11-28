@@ -11,9 +11,9 @@ namespace EmployeeSystem.BL.Managers
     {
         Task<IEnumerable<EmployeesReadDto>> GetAllEmployees();
         Task<EmployeesReadDto?> GetById(int EmployeeId);
-        Task Add(EmployeesAddDto employeesAddDto);
-        Task Update(EmployeesUpdateDto employee);
-        Task Delete(int EmployeeId);
+        Task<string> Add(EmployeesAddDto employeesAddDto);
+        Task<string> Update(EmployeesUpdateDto employee);
+        Task<string> Delete(int EmployeeId);
 
          
     }
