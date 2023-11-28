@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EmployeeSystem.DAL</id>
+    <version>1.0.0</version>
+    <authors>EmployeeSystem.DAL</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\github 2\EmployeesSystem\EmployeeSystem.DAL\bin\Debug\net7.0\EmployeeSystem.DAL.dll" target="lib\net7.0\EmployeeSystem.DAL.dll" />
+  </files>
+</package>

@@ -1,0 +1,11 @@
+F:\github 2\EmployeesSystem\EmployeeSystem.DAL\bin\Debug\net7.0\EmployeeSystem.DAL.deps.json
+F:\github 2\EmployeesSystem\EmployeeSystem.DAL\bin\Debug\net7.0\EmployeeSystem.DAL.dll
+F:\github 2\EmployeesSystem\EmployeeSystem.DAL\bin\Debug\net7.0\EmployeeSystem.DAL.pdb
+F:\github 2\EmployeesSystem\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\github 2\EmployeesSystem\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.DAL.AssemblyInfoInputs.cache
+F:\github 2\EmployeesSystem\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.DAL.AssemblyInfo.cs
+F:\github 2\EmployeesSystem\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.DAL.csproj.CoreCompileInputs.cache
+F:\github 2\EmployeesSystem\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.DAL.dll
+F:\github 2\EmployeesSystem\EmployeeSystem.DAL\obj\Debug\net7.0\refint\EmployeeSystem.DAL.dll
+F:\github 2\EmployeesSystem\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.DAL.pdb
+F:\github 2\EmployeesSystem\EmployeeSystem.DAL\obj\Debug\net7.0\ref\EmployeeSystem.DAL.dll
