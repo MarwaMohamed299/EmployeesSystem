@@ -9,3 +9,6 @@ F:\github 2\EmployeesSystem\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.D
 F:\github 2\EmployeesSystem\EmployeeSystem.DAL\obj\Debug\net7.0\refint\EmployeeSystem.DAL.dll
 F:\github 2\EmployeesSystem\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.DAL.pdb
 F:\github 2\EmployeesSystem\EmployeeSystem.DAL\obj\Debug\net7.0\ref\EmployeeSystem.DAL.dll
+F:\github 2\EmployeesSystem\EmployeeSystem.DAL\bin\Debug\net7.0\EmployeeSystem.DAL.runtimeconfig.json
+F:\github 2\EmployeesSystem\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.DAL.csproj.AssemblyReference.cache
+F:\github 2\EmployeesSystem\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.DAL.genruntimeconfig.cache

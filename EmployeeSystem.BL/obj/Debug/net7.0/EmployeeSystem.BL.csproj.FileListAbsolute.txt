@@ -1,0 +1,17 @@
+F:\github 2\EmployeesSystem\EmployeeSystem.BL\bin\Debug\net7.0\EmployeeSystem.BL.deps.json
+F:\github 2\EmployeesSystem\EmployeeSystem.BL\bin\Debug\net7.0\EmployeeSystem.BL.runtimeconfig.json
+F:\github 2\EmployeesSystem\EmployeeSystem.BL\bin\Debug\net7.0\EmployeeSystem.BL.dll
+F:\github 2\EmployeesSystem\EmployeeSystem.BL\bin\Debug\net7.0\EmployeeSystem.BL.pdb
+F:\github 2\EmployeesSystem\EmployeeSystem.BL\bin\Debug\net7.0\EmployeeSystem.DAL.dll
+F:\github 2\EmployeesSystem\EmployeeSystem.BL\bin\Debug\net7.0\EmployeeSystem.DAL.pdb
+F:\github 2\EmployeesSystem\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.csproj.AssemblyReference.cache
+F:\github 2\EmployeesSystem\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.GeneratedMSBuildEditorConfig.editorconfig
+F:\github 2\EmployeesSystem\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.AssemblyInfoInputs.cache
+F:\github 2\EmployeesSystem\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.AssemblyInfo.cs
+F:\github 2\EmployeesSystem\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.csproj.CoreCompileInputs.cache
+F:\github 2\EmployeesSystem\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.csproj.CopyComplete
+F:\github 2\EmployeesSystem\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.dll
+F:\github 2\EmployeesSystem\EmployeeSystem.BL\obj\Debug\net7.0\refint\EmployeeSystem.BL.dll
+F:\github 2\EmployeesSystem\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.pdb
+F:\github 2\EmployeesSystem\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.genruntimeconfig.cache
+F:\github 2\EmployeesSystem\EmployeeSystem.BL\obj\Debug\net7.0\ref\EmployeeSystem.BL.dll
