@@ -102,6 +102,7 @@ namespace EmployeeSystem.BL.Managers
                 if (existingEmployee == null)
                 {
                     _logger.LogWarning($"Employee with ID {employee.EmployeeId} not found.");
+                    // throw new InvalidOperationException("Employee not found");
                     return null;
                 }
 
