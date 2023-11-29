@@ -84,18 +84,18 @@ namespace EmployeesSystem.API.Controllers
             }
         }
 
-        [HttpDelete("{EmployeeId}")]
-        public async Task<ActionResult<string>> Delete(int EmployeeId) /*Soft Delete*/
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<string>> Delete(int id) /*Soft Delete*/
         {
             try
             {
 
-                var result = await _employeeManager.Delete(EmployeeId);
+                var result = await _employeeManager.Delete(id);
 
                 if (result !=null)
                     return Ok("Employee is De Activated Successfully ");
                 else
-                    return BadRequest("Failed to Activate employee");
+                    return NotFound("Failed to DeActivate Employee");
             }
             catch (Exception ex)
             {

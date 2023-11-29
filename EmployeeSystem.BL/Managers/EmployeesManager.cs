@@ -87,11 +87,11 @@ namespace EmployeeSystem.BL.Managers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error occurred while adding an employee.");
-                return ("Employee Failed to be added");
+                throw new InvalidOperationException("Employee not found");
             }
         }
 
-        public async Task<string> Update(EmployeesUpdateDto employee)                       /*Update*/
+        public async Task<string?> Update(EmployeesUpdateDto employee)                       /*Update*/
         {
             try
             {
@@ -102,7 +102,7 @@ namespace EmployeeSystem.BL.Managers
                 if (existingEmployee == null)
                 {
                     _logger.LogWarning($"Employee with ID {employee.EmployeeId} not found.");
-                    return ("Employee is not found ");
+                    return null;
                 }
 
                 existingEmployee.Name = employee.Name;
@@ -119,7 +119,7 @@ namespace EmployeeSystem.BL.Managers
                 throw;
             }
         }
-        public async Task<string> Delete(int EmployeeId)
+        public async Task<string?> Delete(int EmployeeId)
         {
             try
             {
@@ -128,9 +128,10 @@ namespace EmployeeSystem.BL.Managers
                 if (existingEmployee == null)
                 {
                     _logger.LogWarning($"Employee with ID {EmployeeId} not found.");
-                    return ("Employee is not found ");
 
+                    return null;
                 }
+
 
                 existingEmployee.IsActivated = false; 
 
