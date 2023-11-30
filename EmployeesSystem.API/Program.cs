@@ -57,6 +57,7 @@ namespace EmployeesSystem.API
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
+            app.UseCors("AllowAllDomains");
 
 
             app.MapControllers();
