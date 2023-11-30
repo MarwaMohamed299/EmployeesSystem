@@ -12,3 +12,17 @@ F:\github 2\EmployeesSystem\EmployeeSystem.DAL\obj\Debug\net7.0\ref\EmployeeSyst
 F:\github 2\EmployeesSystem\EmployeeSystem.DAL\bin\Debug\net7.0\EmployeeSystem.DAL.runtimeconfig.json
 F:\github 2\EmployeesSystem\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.DAL.csproj.AssemblyReference.cache
 F:\github 2\EmployeesSystem\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.DAL.genruntimeconfig.cache
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.DAL\bin\Debug\net7.0\EmployeeSystem.DAL.deps.json
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.DAL\bin\Debug\net7.0\EmployeeSystem.DAL.runtimeconfig.json
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.DAL\bin\Debug\net7.0\EmployeeSystem.DAL.dll
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.DAL\bin\Debug\net7.0\EmployeeSystem.DAL.pdb
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.DAL.csproj.AssemblyReference.cache
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.DAL.AssemblyInfoInputs.cache
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.DAL.AssemblyInfo.cs
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.DAL.dll
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.DAL\obj\Debug\net7.0\refint\EmployeeSystem.DAL.dll
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.DAL.pdb
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.DAL\obj\Debug\net7.0\EmployeeSystem.DAL.genruntimeconfig.cache
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.DAL\obj\Debug\net7.0\ref\EmployeeSystem.DAL.dll

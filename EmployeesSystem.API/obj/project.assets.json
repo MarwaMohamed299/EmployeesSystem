@@ -3389,11 +3389,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\github 2\\EmployeesSystem\\EmployeesSystem.API\\EmployeesSystem.API.csproj",
+      "projectUniqueName": "C:\\Users\\Desktop\\Desktop\\Aura\\EmployeesSystem.API\\EmployeesSystem.API.csproj",
       "projectName": "EmployeesSystem.API",
-      "projectPath": "F:\\github 2\\EmployeesSystem\\EmployeesSystem.API\\EmployeesSystem.API.csproj",
+      "projectPath": "C:\\Users\\Desktop\\Desktop\\Aura\\EmployeesSystem.API\\EmployeesSystem.API.csproj",
       "packagesPath": "C:\\Users\\Desktop\\.nuget\\packages\\",
-      "outputPath": "F:\\github 2\\EmployeesSystem\\EmployeesSystem.API\\obj\\",
+      "outputPath": "C:\\Users\\Desktop\\Desktop\\Aura\\EmployeesSystem.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3415,8 +3415,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "F:\\github 2\\EmployeesSystem\\EmployeeSystem.BL\\EmployeeSystem.BL.csproj": {
-              "projectPath": "F:\\github 2\\EmployeesSystem\\EmployeeSystem.BL\\EmployeeSystem.BL.csproj"
+            "C:\\Users\\Desktop\\Desktop\\Aura\\EmployeeSystem.BL\\EmployeeSystem.BL.csproj": {
+              "projectPath": "C:\\Users\\Desktop\\Desktop\\Aura\\EmployeeSystem.BL\\EmployeeSystem.BL.csproj"
             }
           }
         }

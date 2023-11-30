@@ -13,8 +13,8 @@ namespace EmployeeSystem.DAL.Repos
         Task<Employee?> GetById(int employeeId);
 
         Task Add(Employee employee);
-        Task Update(Employee employee);
-        Task Delete(Employee employee);
+       // Task Update(Employee employee);
+        Task UpdateEmployee(Employee employee);
         int SaveChanges();
 
 

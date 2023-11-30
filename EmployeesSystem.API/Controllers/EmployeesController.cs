@@ -65,32 +65,32 @@ namespace EmployeesSystem.API.Controllers
             }
         }
 
+        //[HttpPut("{id}")]
+        //public async Task<ActionResult> Update( [FromBody] EmployeesUpdateDto employeeDto)
+        //{
+        //    try
+        //    {
+
+        //        var result = await _employeeManager.Update(employeeDto);
+
+        //        if (result!=null )
+        //            return Ok("Employee is Updated Successfully ");
+        //        else
+        //            return BadRequest("Failed to update employee");
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return StatusCode(StatusCodes.Status500InternalServerError, $"Error: {ex.Message}");
+        //    }
+        //}
+
         [HttpPut("{id}")]
-        public async Task<ActionResult> Update( [FromBody] EmployeesUpdateDto employeeDto)
+        public async Task<ActionResult<string>> UpdateEmployee(int id) /*Soft Delete*/
         {
             try
             {
 
-                var result = await _employeeManager.Update(employeeDto);
-
-                if (result!=null )
-                    return Ok("Employee is Updated Successfully ");
-                else
-                    return BadRequest("Failed to update employee");
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, $"Error: {ex.Message}");
-            }
-        }
-
-        [HttpDelete("{id}")]
-        public async Task<ActionResult<string>> Delete(int id) /*Soft Delete*/
-        {
-            try
-            {
-
-                var result = await _employeeManager.Delete(id);
+                var result = await _employeeManager.UpdateEmployee(id);
 
                 if (result !=null)
                     return Ok("Employee is De Activated Successfully ");

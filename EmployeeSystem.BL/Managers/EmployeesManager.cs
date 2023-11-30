@@ -91,36 +91,36 @@ namespace EmployeeSystem.BL.Managers
             }
         }
 
-        public async Task<string?> Update(EmployeesUpdateDto employee)                       /*Update*/
-        {
-            try
-            {
+        //public async Task<string?> Update(EmployeesUpdateDto employee)                       /*Update*/
+        //{
+        //    try
+        //    {
 
               
-                var existingEmployee = await _employeeRepo.GetById(employee.EmployeeId);
+        //        var existingEmployee = await _employeeRepo.GetById(employee.EmployeeId);
 
-                if (existingEmployee == null)
-                {
-                    _logger.LogWarning($"Employee with ID {employee.EmployeeId} not found.");
-                    // throw new InvalidOperationException("Employee not found");
-                    return null;
-                }
+        //        if (existingEmployee == null)
+        //        {
+        //            _logger.LogWarning($"Employee with ID {employee.EmployeeId} not found.");
+        //            // throw new InvalidOperationException("Employee not found");
+        //            return null;
+        //        }
 
-                existingEmployee.Name = employee.Name;
-                existingEmployee.IsActivated = employee.IsActivated;
+        //        existingEmployee.Name = employee.Name;
+        //        existingEmployee.IsActivated = employee.IsActivated;
 
-               await _employeeRepo.Update(existingEmployee);
-                _employeeRepo.SaveChanges();
-                return ("Employee is Updated Successfully");
+        //       await _employeeRepo.UpdateEmployee(existingEmployee);
+        //        _employeeRepo.SaveChanges();
+        //        return ("Employee is Updated Successfully");
 
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, $"Error occurred while updating employee with ID {employee.EmployeeId}.");
-                throw;
-            }
-        }
-        public async Task<string?> Delete(int EmployeeId)
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        _logger.LogError(ex, $"Error occurred while updating employee with ID {employee.EmployeeId}.");
+        //        throw;
+        //    }
+        //}
+        public async Task<string?> UpdateEmployee(int EmployeeId)
         {
             try
             {
@@ -136,7 +136,7 @@ namespace EmployeeSystem.BL.Managers
 
                 existingEmployee.IsActivated = false; 
 
-                await _employeeRepo.Update(existingEmployee);
+                await _employeeRepo.UpdateEmployee(existingEmployee);
                        _employeeRepo.SaveChanges();
                 return ("Employee is Not Activated ");
 

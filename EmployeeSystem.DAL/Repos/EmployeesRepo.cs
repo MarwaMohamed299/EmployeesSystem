@@ -35,19 +35,13 @@ namespace EmployeeSystem.DAL.Repos
              await _employeeContext.Employees.AddAsync(employee);
 
         }
-        public async Task Update(Employee employee)
+        public async Task UpdateEmployee(Employee employee)
         {
             _employeeContext.Employees.Update(employee);
             await _employeeContext.SaveChangesAsync();
 
         }
-        public async Task Delete(Employee employee)
-        {
-             _employeeContext.Employees.Remove(employee);
-             await _employeeContext.SaveChangesAsync();
-
-
-        }
+       
         public int SaveChanges()
         {
             return _employeeContext.SaveChanges();

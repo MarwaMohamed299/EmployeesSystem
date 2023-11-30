@@ -15,3 +15,20 @@ F:\github 2\EmployeesSystem\EmployeeSystem.BL\obj\Debug\net7.0\refint\EmployeeSy
 F:\github 2\EmployeesSystem\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.pdb
 F:\github 2\EmployeesSystem\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.genruntimeconfig.cache
 F:\github 2\EmployeesSystem\EmployeeSystem.BL\obj\Debug\net7.0\ref\EmployeeSystem.BL.dll
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.BL\bin\Debug\net7.0\EmployeeSystem.BL.deps.json
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.BL\bin\Debug\net7.0\EmployeeSystem.BL.runtimeconfig.json
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.BL\bin\Debug\net7.0\EmployeeSystem.BL.dll
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.BL\bin\Debug\net7.0\EmployeeSystem.BL.pdb
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.BL\bin\Debug\net7.0\EmployeeSystem.DAL.dll
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.BL\bin\Debug\net7.0\EmployeeSystem.DAL.pdb
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.csproj.AssemblyReference.cache
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.AssemblyInfoInputs.cache
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.AssemblyInfo.cs
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.csproj.CoreCompileInputs.cache
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.csproj.CopyComplete
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.dll
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.BL\obj\Debug\net7.0\refint\EmployeeSystem.BL.dll
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.pdb
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.BL\obj\Debug\net7.0\EmployeeSystem.BL.genruntimeconfig.cache
+C:\Users\Desktop\Desktop\Aura\EmployeeSystem.BL\obj\Debug\net7.0\ref\EmployeeSystem.BL.dll

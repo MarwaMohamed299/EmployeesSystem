@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0yL4oWi3msozz1n06V2G+2IM4hioiC16FF6FVj61TEh7g4oo2NoxvOGo+Rw/1rs2PtHhcf1hgox+ut0ObvOOBw==",
+  "dgSpecHash": "n1fpkBrwX0Mj7vkZxAsjPoWXHqjN1dgAvUC249c7W/MU4Aw7wyj26T8rWyLLxPka7cjpZO6e3lFfocyZunBTcA==",
   "success": true,
-  "projectFilePath": "F:\\github 2\\EmployeesSystem\\EmployeeSystem.BL\\EmployeeSystem.BL.csproj",
+  "projectFilePath": "C:\\Users\\Desktop\\Desktop\\Aura\\EmployeeSystem.BL\\EmployeeSystem.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Desktop\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Desktop\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
