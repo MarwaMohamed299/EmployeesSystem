@@ -33,6 +33,7 @@ namespace EmployeeSystem.DAL.Repos
         public async Task Add(Employee employee)
         {
              await _employeeContext.Employees.AddAsync(employee);
+            await _employeeContext.SaveChangesAsync();
 
         }
         public async Task UpdateEmployee(Employee employee)
